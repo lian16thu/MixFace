@@ -47,21 +47,22 @@ This project is to mix two persons' faces with TPS or B_Splines method. The pict
 
 6. Input the basic infomation as asked
 
-   ![Snipaste_2018-11-25_14-05-28](../picture/Snipaste_2018-11-25_14-05-28.jpg)
+   ![Snipaste_2018-11-25_14-05-28](MixFace/picture/Snipaste_2018-11-25_14-05-28.jpg)
+   
 
    As you can see, we choose ==8.jpg== as the target face and ==6.jpg== as the control face with ==TPS== method to transform and ==Nearest== Interpotation method. If you input some wrong infomation, you will be asked to input again.
 
    Then the terminal will output some infomation like this.
 
-   ![Snipaste_2018-11-25_14-05-50](../picture/Snipaste_2018-11-25_14-05-50.jpg)
+   ![Snipaste_2018-11-25_14-05-50](MixFace/picture/Snipaste_2018-11-25_14-05-50.jpg)
 
    Display the four pictures
 
-   ![Snipaste_2018-11-25_14-06-05](../picture/Snipaste_2018-11-25_14-06-05.jpg)
+   ![Snipaste_2018-11-25_14-06-05](MixFace/picture/Snipaste_2018-11-25_14-06-05.jpg)
 
    The first one is the control face Anderson, the second one is the mixed face with clipping, the third one is the mixed face without clipping and the last one is target face Trump.
 
-   ![Snipaste_2018-11-25_14-06-15](../picture/Snipaste_2018-11-25_14-06-15.jpg)
+   ![Snipaste_2018-11-25_14-06-15](MixFace/picture/Snipaste_2018-11-25_14-06-15.jpg)
 
    If we store the faces or just screenshot. We can finally get the result : Trump-Anderson.
 
