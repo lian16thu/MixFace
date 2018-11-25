@@ -1,0 +1,8 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 3.5)
+PROJECT(hello)
+ADD_LIBRARY(hello SHARED hello.cpp hello.h)
+ADD_LIBRARY(solver SHARED tps.cpp tps.h)
+ADD_LIBRARY(interpolation SHARED interpolation.cpp interpolation.h)
+ADD_LIBRARY(Matrix SHARED Matrix.cpp Matrix.h)
+ADD_LIBRARY(bsplines SHARED bsplines.cpp bsplines.h)
+SET(LIBRART_OUT_PATH ../lib)
